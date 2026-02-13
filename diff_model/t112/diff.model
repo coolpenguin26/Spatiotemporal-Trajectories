@@ -1,0 +1,127 @@
+#
+# Basic models just defining the genes and a simple interaction
+#
+# Variables:
+#x y z vol id
+# AG AHP6 ANT AP1 AP2 AP3 AS1 ATML1 CLV3 CUC1_2_3 ETTIN FIL LFY MP PHB_PHV PI PUCHI REV SEP1 SEP2 SEP3 STM SUP SVP WUS
+
+basicFlowerModel
+1	# 1 topology/geometry
+26	# number of variables (id + genes)
+0	# number of reactions updating several variables
+1	# number of neighborhood rules
+
+
+topologyStatic
+4	# number variables (x,y,z,V)
+0	# number of growth reactions
+0	# number of division reactions
+
+ID 4 0
+
+AG 5 1
+diffusionSimple 1 0 
+0.01
+
+AHP6 6 1
+diffusionSimple 1 0 
+0.01
+
+ANT 7 1
+diffusionSimple 1 0 
+0.01
+
+AP1 8 1
+diffusionSimple 1 0 
+0.01
+
+AP2 9 1
+diffusionSimple 1 0 
+0.01
+
+AP3 10 1
+diffusionSimple 1 0 
+0.01
+
+AS1 11 1
+diffusionSimple 1 0 
+0.01
+
+ATML1 12 1
+diffusionSimple 1 0 
+0.01
+
+CLV3 13 1
+diffusionSimple 1 0 
+0.01
+
+CUC1_2_3 14 1
+diffusionSimple 1 0 
+0.01
+
+ETTIN 15 1
+diffusionSimple 1 0 
+0.01
+
+FIL 16 1
+diffusionSimple 1 0 
+0.01
+
+LFY 17 1
+diffusionSimple 1 0 
+0.01
+
+MP 18 1
+diffusionSimple 1 0 
+0.01
+
+PHB_PHV 19 1
+diffusionSimple 1 0 
+0.01
+
+PI 20 1
+diffusionSimple 1 0 
+0.01
+
+PUCHI 21 1
+diffusionSimple 1 0 
+0.01
+
+REV 22 1
+diffusionSimple 1 0 
+0.01
+
+SEP1 23 1
+diffusionSimple 1 0 
+0.01
+
+SEP2 24 1
+diffusionSimple 1 0 
+0.01
+
+SEP3 25 1
+diffusionSimple 1 0 
+0.01
+
+STM 26 1
+diffusionSimple 1 0 
+0.01
+
+SUP 27 1
+diffusionSimple 1 0 
+0.01
+
+SVP 28 1
+diffusionSimple 1 0 
+0.01
+
+WUS 29 1
+diffusionSimple 1 0 
+0.01
+
+SphereVolume::neighborhoodDistance 3 0
+0.65 1 0.1 p_8 - p_10
+
+
+
+

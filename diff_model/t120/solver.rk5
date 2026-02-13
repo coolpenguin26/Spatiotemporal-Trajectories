@@ -1,0 +1,4 @@
+RK5Adaptive
+0. 10.0 # Tstart Tend
+1 10    # printing_method(1 for newman, 2 for gnuplot) numPrint
+0.5 1e-6 # max_time_step errorTolerance
